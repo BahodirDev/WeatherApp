@@ -1,0 +1,68 @@
+/** Fonsts **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@1,700&display=swap');
+
+.Navbar{
+    width: 100%;
+    padding: 15px;
+    background: #7080F7;
+}
+.text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.search> input{
+    border: none;
+    width: 20%;
+    border-bottom: 2px solid #d6d6d6;
+    padding: 15px;
+}
+.search> input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #d6d6d6;
+
+}
+.city{
+     width: 450px;
+    height: 300px;
+    box-shadow: 0 0 15px #808080;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5% auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #7486F7;
+
+}
+.details{
+    margin-top: 30px;
+
+}
+.details>city-name{
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+.details>city-temp{
+    font-weight: 400;
+    font-style: 20px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+.extra{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+#search{
+    position: absolute;
+    right: 420px;
+    top: 210px;
+    height: 60px;
+}
